@@ -1,16 +1,67 @@
 <!DOCTYPE html>
 
 <html>
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
 
-<head>
-	<link rel="stylesheet" href="styles.css">
-</head>
+  <body>
+    <!-- the entire body must be written by student -->
+    <script type="text/javascript" src="./script.js"></script>
 
-<body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+    <form action="" method="post">
+      <div>
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" required />
+      </div>
+      <br />
 
-</body>
+      <div>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" required />
+      </div>
+      <br />
 
+      <div>
+        <label for="Gender">Gender:</label>
+        <input type="radio" name="gender" id="gender" required />
+        <label for="gender">Male</label>
+        <input type="radio" name="gender" id="gender" required />
+        <label for="gender">Female</label>
+      </div>
+      <br />
+
+      <div>
+        <label for="brand">Car Brand:</label>
+        <select name="brand" id="brand">
+          <option value="BMW">BMW</option>
+          <option value="BMW">Audi</option>
+          <option value="BMW">Mercedez</option>
+        </select>
+      </div>
+      <br />
+
+      <div>
+        <label for="carage">Car age</label>
+        <input type="number" name="carage" id="carage" required />
+      </div>
+      <br />
+
+      <div>
+        <label for="dop">Date of purchase</label>
+        <input type="date" name="dop" id="dop" required />
+      </div>
+      <br />
+
+      <div>
+        <label for="password"></label>
+        <input type="password" name="password" id="password" required />
+      </div>
+      <br />
+
+      <div>
+        <input type="submit" value="Submit" />
+      </div>
+    </form>
+  </body>
 </html>
